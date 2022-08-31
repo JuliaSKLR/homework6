@@ -17,7 +17,7 @@ for (int i = 0; i < a; i++)
 {
 
     int b = Prompt("Введите число = ");
-    if (b % 2 == 0)
+    if (b > 0)
     {
         result++;
     }
